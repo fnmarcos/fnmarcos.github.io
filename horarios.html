@@ -5,16 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Horarios de Atencion</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
 
 </head>
 
-<!-- IMAGENES SVG -->
-
 <body class="body">
+
+    <!-- IMAGENES SVG -->
 
     <svg xmlns="http://www.w3.org/2000/svg" style=" display: none;">
         <symbol id="facebook" viewBox="0 0 18 18" fill="currentColor">
@@ -38,7 +38,6 @@
             </path>
         </symbol>
     </svg>
-
 
     <!-- HEADER -->
 
@@ -83,94 +82,64 @@
     </header>
 
     <!-- MAIN -->
-    <main class="main">
+    <main class="main main_contacto_horarios">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center display-6 titulo">Horarios de atencion</h2>
+                </div>
 
-        <section class="section1">
-            <img src="./imagenes/logo2.png" alt="Logo TAPE" width="150" height="80">
-            <br>
-            <h3>Ingeniería y Servicios para Automatización Industrial</h3>
-            <h1>Automatización</h1>
-            <h3>Avance, implemente soluciones integrales de automatización</h3>
-        </section>
-
-        <section class="section2">
-            <p>
-                Estamos especializados en servicios integrales destinados a la automatización industrial, brindando una
-                correcta evaluación técnica y económica que favorezca la relación costo-beneficio de todos sus
-                proyectos.
-            </p>
-        </section>
-
-        <div class="div_video">
-            <div class="contenedor_video">
-                <iframe width="560" height="315" class="iframe_video" src="https://www.youtube.com/embed/kqDPIv-wAmg"
-                    title="EcoStruxure Automation Expert Reinvents Your Industrial Automation System | Schneider Electric"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
             </div>
+            <h1 class="text-center display-6"></h1>
+
+            <table class="table table-striped table-hover table-secondary table-bordered">
+                <thead class="table-dark text-center ">
+                    <tr>
+                        <th scope="col" class="align-middle">Día</th>
+                        <th scope="col">Apertura</th>
+                        <th scope="col">Cierre</th>
+                    </tr>
+                </thead>
+                <tbody class="text-center">
+                    <tr>
+                        <th scope="row">Lunes</td>
+                        <td>8:00</td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Martes</td>
+                        <td>8:00</td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Miércoles</td>
+                        <td>8:00 </td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Jueves</td>
+                        <td>8:00</td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Viernes</td>
+                        <td>8:00</td>
+                        <td>16:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Sábado</td>
+                        <td>8:00</td>
+                        <td>12:00</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Domingo</td>
+                        <td colspan="2">Cerrado</td>
+                    </tr>
+
+                </tbody>
+            </table>
         </div>
-
-        <section class="section_servicio" id="servicio">
-            <div class="servicio">
-                <div>
-                    <h2 class="servicio_titulo">Automatización</h2>
-                </div>
-                <div class="servicio_lista">
-                    <ul>
-                        <li>Programación y puesta en marcha de PLC </li>
-                        <li>Programación y puesta en marcha de paneles de operador</li>
-                        <li>Sistemas de adquisición y supervisión SCADA </li>
-                        <li>Sistemas de control de movimiento</li>
-                        <li>Arrancadores suaves </li>
-                        <li>Control de procesos en tiempo real</li>
-                        <li>Herramientas de programación avanzadas</li>
-                        <li>Sistemas de visión inteligentes</li>
-                    </ul>
-                </div>
-            </div>
-        </section>
-
-        <section class="section_servicio">
-            <div class="servicio">
-                <div class="servicio_lista">
-                    <ul>
-                        <li>Ingeniería de diseño y detalles</li>
-                        <li>Dirección de obra</li>
-                        <li>Armado e instalación de tableros eléctricos, pupitres de operador</li>
-                        <li>Diseño y fabricación de equipos electrónicos industriales</li>
-                        <li>Instalaciones eléctricas industriales, cableado de campo, montaje general</li>
-                        <li>Instalaciones especiales</li>
-                    </ul>
-                </div>
-                <div class="servicio_titulo">
-                    <h2>Ingeniería</h2>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="section_servicio">
-            <div class="servicio">
-                <div class="servicio_titulo">
-                    <h3>Capacitación</h3>
-                </div>
-
-                <div class="servicio_lista">
-                    <ul>
-                        <li>Redes y Comunicaciones</li>
-                        <li>Sistemas de visualización/paneles de operación HMI</li>
-                        <li>Protocolos de comunicacion MODBUS y DNP3</li>
-                    </ul>
-
-                </div>
-            </div>
-
-        </section>
-
     </main>
-
 
     <!-- FOOTER -->
 
@@ -205,7 +174,6 @@
 
     </footer>
 
-    <!-- <script src="./js/javascript.js"></script> -->
     <script src="./js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

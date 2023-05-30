@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Formulario de contacto</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 </head>
 
-<!-- IMAGENES SVG -->
-
 <body class="body">
+
+    <!-- IMAGENES SVG -->
 
     <svg xmlns="http://www.w3.org/2000/svg" style=" display: none;">
         <symbol id="facebook" viewBox="0 0 18 18" fill="currentColor">
@@ -38,7 +39,6 @@
             </path>
         </symbol>
     </svg>
-
 
     <!-- HEADER -->
 
@@ -79,98 +79,62 @@
                 </li>
             </ul>
         </div>
-
+        
     </header>
 
     <!-- MAIN -->
-    <main class="main">
 
-        <section class="section1">
-            <img src="./imagenes/logo2.png" alt="Logo TAPE" width="150" height="80">
-            <br>
-            <h3>Ingeniería y Servicios para Automatización Industrial</h3>
-            <h1>Automatización</h1>
-            <h3>Avance, implemente soluciones integrales de automatización</h3>
-        </section>
-
-        <section class="section2">
-            <p>
-                Estamos especializados en servicios integrales destinados a la automatización industrial, brindando una
-                correcta evaluación técnica y económica que favorezca la relación costo-beneficio de todos sus
-                proyectos.
-            </p>
-        </section>
-
-        <div class="div_video">
-            <div class="contenedor_video">
-                <iframe width="560" height="315" class="iframe_video" src="https://www.youtube.com/embed/kqDPIv-wAmg"
-                    title="EcoStruxure Automation Expert Reinvents Your Industrial Automation System | Schneider Electric"
-                    frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                    allowfullscreen>
-                </iframe>
-            </div>
-        </div>
-
-        <section class="section_servicio" id="servicio">
-            <div class="servicio">
-                <div>
-                    <h2 class="servicio_titulo">Automatización</h2>
-                </div>
-                <div class="servicio_lista">
-                    <ul>
-                        <li>Programación y puesta en marcha de PLC </li>
-                        <li>Programación y puesta en marcha de paneles de operador</li>
-                        <li>Sistemas de adquisición y supervisión SCADA </li>
-                        <li>Sistemas de control de movimiento</li>
-                        <li>Arrancadores suaves </li>
-                        <li>Control de procesos en tiempo real</li>
-                        <li>Herramientas de programación avanzadas</li>
-                        <li>Sistemas de visión inteligentes</li>
-                    </ul>
+    <main class=" main main_contacto_horarios">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-center display-6 titulo">Formulario de Contacto</h2>
                 </div>
             </div>
-        </section>
-
-        <section class="section_servicio">
-            <div class="servicio">
-                <div class="servicio_lista">
-                    <ul>
-                        <li>Ingeniería de diseño y detalles</li>
-                        <li>Dirección de obra</li>
-                        <li>Armado e instalación de tableros eléctricos, pupitres de operador</li>
-                        <li>Diseño y fabricación de equipos electrónicos industriales</li>
-                        <li>Instalaciones eléctricas industriales, cableado de campo, montaje general</li>
-                        <li>Instalaciones especiales</li>
-                    </ul>
-                </div>
-                <div class="servicio_titulo">
-                    <h2>Ingeniería</h2>
-                </div>
+            <div class="col">
+                <p class="texto_formulario">Contáctenos hoy, complete el formulario para poder comunicarnos:</p>
             </div>
-
-        </section>
-
-        <section class="section_servicio">
-            <div class="servicio">
-                <div class="servicio_titulo">
-                    <h3>Capacitación</h3>
+            <form method="" action="" class="form border p-4">
+                <div class="form-group row">
+                    <div class="form-group col mb-3">
+                        <label class="form-label" for="nombre">Nombre</label>
+                        <span class="text-danger"> *</span></label>
+                        <input type="text" class="form-control" id="nombre" name="nombre"
+                            placeholder="Escribe tu nombre" required>
+                    </div>
+                    <div class="form-group col mb-3 ">
+                        <label class="form-label" for="inputPassword4">Apellido</label>
+                        <span class="text-danger"> *</span></label>
+                        <input type="text" class="form-control" id="apellido" name="apellido"
+                            placeholder="Escribe tu apellido" required>
+                    </div>
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <span class="text-danger"> *</span></label>
+                    <input type="email" class="form-control" id="email" name="email" required
+                        placeholder="Escribe tu Email">
+                </div>
+                <div class="form-group mb-3">
+                    <label class="form-label" for="telefono">Teléfono</label>
+                    <input type="number" class="form-control" id="telefono" name="telefono"
+                        placeholder="Escribe tu teléfono">
                 </div>
 
-                <div class="servicio_lista">
-                    <ul>
-                        <li>Redes y Comunicaciones</li>
-                        <li>Sistemas de visualización/paneles de operación HMI</li>
-                        <li>Protocolos de comunicacion MODBUS y DNP3</li>
-                    </ul>
-
+                <div class="form-group mb-3">
+                    <label class="form-label" for="mensaje">Mensaje</label>
+                    <span class="text-danger"> *</span></label>
+                    <textarea class="form-control" id="mensaje" rows="4" placeholder="Deja aquí tu mensaje..."
+                        required></textarea>
                 </div>
-            </div>
 
-        </section>
+                <div class="form-group col mb-3">
+                    <button type="submit" class="btn btn-secondary">Enviar</button>
+                </div>
+
+            </form>
 
     </main>
-
 
     <!-- FOOTER -->
 
@@ -205,7 +169,6 @@
 
     </footer>
 
-    <!-- <script src="./js/javascript.js"></script> -->
     <script src="./js/bootstrap.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
