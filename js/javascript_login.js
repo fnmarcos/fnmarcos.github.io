@@ -1,18 +1,19 @@
 var var_edad = prompt("Ingrese su edad a continuacion:");
 var_edad = parseInt(var_edad);
 
-while (Number.isInteger(var_edad) == false) {
+// Se verifica que lo ingresado sea un numero
+while (Number.isInteger(var_edad) == false) { 
     alert(" No ingresó su edad, por favor intente de nuevo");
     var_edad = prompt("Ingrese su edad a continuacion:");
     var_edad = parseInt(var_edad);
 }
 
-verificacion_edad(var_edad);
+verificacion_edad(var_edad); // Se llama la funcion verificacion_edad 
 
-estudiante();
+estudiante(); // Se llama la funcion edad 
 
 // Funciones ------------------------------------------------------------------
-
+// funcion donde se verifica edad 
 function verificacion_edad(edad) {
 
     if (edad >= 18) {
@@ -21,6 +22,8 @@ function verificacion_edad(edad) {
         alert("Usted no es mayor de edad, entra bajo su responsabilidad");
     }
 }
+
+// funcion donde se ingresa el nombre del usuario y confirma si es estudiante universitario
 
 function estudiante() {
 

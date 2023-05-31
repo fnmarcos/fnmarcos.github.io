@@ -19,6 +19,7 @@ html {
     padding: 0;
 }
 
+/* css div bootstrap */
 .conteiner_equipo {
     background-image: url("../imagenes/background.jpg");
     background-position: center;
@@ -31,6 +32,7 @@ html {
 
 /* HEADER -----------------------------------------------------------------------------*/
 
+/* css navbar bootstrap */
 .header {
     background-color: black;
     border-bottom: 1px solid #fff;
@@ -118,6 +120,7 @@ html {
     padding: 1.5rem;
 }
 
+/* css formulario bootstrap */
 .form {
     background-color: #0a0a0a;
     color: white;
@@ -161,18 +164,22 @@ html {
 
 /* FOOTER -----------------------------------------------------------------------------*/
 
+/* css footer bootstrap */
+
 .footer-custom {
     background-color: black;
     border-top: 1px solid #fff;
     padding: 0.75rem 0.4rem 0.75rem;
 }
 
+/* css footer bootstrap */
 .footer-custom-color {
     color: #333;
 }
 
 /* ASIDE -----------------------------------------------------------------------------*/
 
+/* css aside bootstrap */
 .aside {
     background-color: #fff;
     text-align: justify;
